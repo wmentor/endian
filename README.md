@@ -19,9 +19,9 @@ import (
 )
 
 func main() {
-	order := endian.GetOrder()
+    order := endian.GetOrder()
 
-	if order == endian.BigEndian {
+    if order == endian.BigEndian {
         fmt.Println("Big Endian")
     } else {
         fmt.Println("Little Endian")
