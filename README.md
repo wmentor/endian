@@ -13,9 +13,9 @@ Detect byte order library (BigEndian or LittleEndian)
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/wmentor/endian"
+    "github.com/wmentor/endian"
 )
 
 func main() {
